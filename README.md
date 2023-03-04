@@ -1,0 +1,18 @@
+https://www.digitalocean.com/community/tutorials/how-to-implement-caching-in-node-js-using-redis
+
+Caching in Node.js with Express middleware using Redis
+
+`npm install express axios redis`  
+
+`sudo systemctl start docker`
+
+`docker-compose up`
+
+`sudo apt install redis-tools -y`  
+
+`redis-cli`  
+
+`get red-snapper`  
+`del red-snapper`  
+
+`nodemon server.js`  
