@@ -2,9 +2,14 @@ https://www.digitalocean.com/community/tutorials/how-to-implement-caching-in-nod
 
 Caching in Node.js with Express middleware using Redis
 
+`mkdir fish-wiki`  
+`cd fish-wiki`  
+
 `npm install express axios redis`  
 
 `sudo systemctl start docker`
+
+`mkdir redis-persistence`  
 
 `docker-compose up`
 
@@ -16,3 +21,5 @@ Caching in Node.js with Express middleware using Redis
 `del red-snapper`  
 
 `nodemon server.js`  
+
+`http://localhost:3000/fish/red-snapper`  
